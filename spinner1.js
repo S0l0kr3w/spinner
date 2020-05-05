@@ -1,3 +1,5 @@
+const spinner = function() {
+
 setTimeout(() => {
   process.stdout.write('\r|   ');
 }, 100);
@@ -35,4 +37,7 @@ setTimeout(() => {
   process.stdout.write('\r|  '); 
 }, 1500);
 
+};
+
+spinner();
 // ... fill in the rest yourself ...
